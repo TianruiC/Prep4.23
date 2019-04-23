@@ -2,9 +2,51 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Maps</title>
+    <style media="screen">
+      body{
+        background-color: #EDF0EC;
+      }
+      img{
+        margin-left:10px;
+        display:block;
+      }
+      .ex{
+        width:20%;
+      }
+      .table{
+        width:95%;
+      }
+      div{
+        background: #EDE8E5;
+        margin-bottom:15px;
+        border: 5px solid #4D8E80;
+        border-radius:12px;
+      }
+      h2{
+        margin-left:10px;
+      }
+      h3{
+        margin-left:20px;
+      }
+    </style>
   </head>
   <body>
-    <h1>hello world</h1>
+    <h1>Mapping Mistakes</h1>
+    <div class="circle">
+      <h2>Circle Size</h2>
+      <h3>Designers usually can not size circles correctly.</h3>
+      <h3>When sizing the circle, you should double the area not the radius which will ends up quadruple the area.</h3>
+    </div>
+    <div class="software">
+      <h2>Software Default</h2>
+      <h3>Designers usually rely on the software defaults to do visualizations.</h3>
+      <h3>But we should never trust Software Defaults. This is valid for any tools, not just for mapping programs.</h3>
+    </div>
+    <div class="Overlap">
+      <h2>Symbol placement</h2>
+      <h3>In proportinal symbol maps, some areas may get so crowded that it becomes difficult to figure out what's going on.</h3>
+      <h3>Make sure that small symbols are always in front of larger ones or make all symbols semi-transparent.</h3>
+    </div>
   </body>
 </html>
